@@ -6,7 +6,8 @@
 }
 
 .common-container {
-    margin-top: 25px;
+    max-width: 1500px;
+    margin: 35px auto;
 }
 
 /* nav bar css */
@@ -83,3 +84,68 @@
     height: 80px;
     font-size: 25px !important;
 }
+
+/*  meet speaker section*/
+/* card design */
+.card-parent .card-design {
+    border: 3px solid rgb(179, 179, 179);
+    border-radius: 15px;
+
+}
+.card-parent img{
+    border-radius: 15px;
+}
+.meet-speaker-parent{
+    justify-content: center;
+}
+.meet-speaker-parent .card-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    
+}
+.meet-speaker-parent h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.card-parent{
+    padding-top: 40px;
+}
+.card-design p,h3{
+    padding: 10px 10px;
+    text-align:left;
+}
+.card-design span{
+    color: blue;
+}
+
+/* spot */
+.secure-spot-parent h2,p{
+    /* padding-top: 20px; */
+    text-align: left;
+    padding-left: 20px;
+
+} 
+.spot-card-root{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+   
+}
+.spot-card-root .spot-card{
+    border: 2px solid gray;
+    text-align: left;
+    border-radius: 10px;
+     height: 300px;
+}
+.spot-card ul{
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/* .spot-card .common-button-style{
+     
+
+} */
