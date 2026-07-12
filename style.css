@@ -189,6 +189,7 @@
     justify-content: space-between;
     gap: 50px;
     flex-wrap: wrap;
+    padding: 30px;
 }
 
 .footer-logo,
@@ -202,6 +203,9 @@
 .footer h3 {
     margin-bottom: 20px;
 }
+.footer h3{
+    text-align: center;
+}
 
 .footer p {
     color: #d1d5db;
@@ -210,7 +214,8 @@
 
 .footer-links ul {
     list-style: none;
-    padding: 0;
+    padding: 0; 
+    text-align: center;
 }
 
 .footer-links li {
@@ -226,7 +231,14 @@
 .footer-links a:hover {
     color: #3b82f6;
 }
+.footer-contact{
+    text-align: center;
 
+}
+.footer-contact .font-awesome-icon{
+    font-size: 50px;
+    
+}
 .footer hr {
     border: none;
     height: 1px;
