@@ -1,0 +1,85 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.common-container {
+    margin-top: 25px;
+}
+
+/* nav bar css */
+.nav-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.nav-link-root .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-link-root .nav-list a {
+    text-decoration: none;
+}
+
+/* common button css */
+.common-button-style {
+    background-color: rgb(29, 78, 216);
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    width: 150px;
+}
+
+/* hero section */
+
+.hero-parent {
+    position: relative;
+    width: 1500px;
+}
+
+.hero-parent img {
+    width: 100%;
+    display: block;
+}
+
+.hero-parent .text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    gap: 10px   ;
+}
+.hero-parent .text p{
+    padding-top: 20px;
+}
+.hero-parent .common-button-style {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    font-size: 25px !important;
+}
