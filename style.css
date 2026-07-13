@@ -7,13 +7,14 @@
 
 .common-container {
     max-width: 1500px;
-    margin: 35px auto;
+    /* margin: 35px auto; */
 }
 
 /* nav bar css */
 .nav-parent {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .nav-logo {
@@ -51,6 +52,7 @@
 .hero-parent {
     position: relative;
     width: 1500px;
+    padding-top: 20px;
 }
 
 .hero-parent img {
@@ -97,6 +99,11 @@
 }
 .meet-speaker-parent{
     justify-content: center;
+    background-color: #111827;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: white;
+    
 }
 .meet-speaker-parent .card-parent{
     display: grid;
@@ -121,9 +128,14 @@
 
 /* spot */
 
+
+.secure-spot-parent{
+    padding-bottom: 50px;
+}
+
 .spot-heading{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .spot-card h2,
@@ -180,7 +192,7 @@
 .footer {
     background: #111827;
     color: white;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     padding-top: 60px;
 }
 
@@ -198,8 +210,15 @@
     flex: 1;
     min-width: 220px;
 }
-
-.footer h2,
+.footer-logo {
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-logo img{
+    height: 60px;
+}
 .footer h3 {
     margin-bottom: 20px;
 }
@@ -212,6 +231,9 @@
     line-height: 1.8;
 }
 
+.footer-links{
+    font-size: 30px;
+}
 .footer-links ul {
     list-style: none;
     padding: 0; 
@@ -220,6 +242,8 @@
 
 .footer-links li {
     margin-bottom: 12px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .footer-links a {
@@ -233,10 +257,11 @@
 }
 .footer-contact{
     text-align: center;
-
+    font-size: 30px;
 }
 .footer-contact .font-awesome-icon{
-    font-size: 50px;
+    font-size: 60px;
+
     
 }
 .footer hr {
@@ -254,4 +279,51 @@
 .footer-bottom p {
     color: #9ca3af;
     font-size: 14px;
+}
+
+/* stay updated  */
+.stay-updated-parent{
+    background-color: rgb(156, 112, 214);
+    color: rgb(231, 210, 231);
+    padding: 50px 0;
+}
+.stay-updated-parent h1{
+   padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    
+}
+
+.stay-updated-parent h3{
+    text-align: center;
+    font-size: 30px;
+    width: 650px;
+    margin: 20px auto;
+}
+.input-box{
+  /* padding: 80px 0;
+    text-align: center;
+    width: 60%;  */
+
+    display: flex;
+    /* justify-content: center; 
+    align-items: center; */
+    width: 80%;
+    padding: 80px 0; 
+
+    
+}
+.input-box .email-box{
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+}
+.input-box .common-button-style{
+    width: 200px;
+    height: 55px;
+    font-size: 24px;
 }
